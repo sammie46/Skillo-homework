@@ -5,12 +5,12 @@ public class Main {
  Scanner scanner = new Scanner(System.in);
 
       //Without input
-       System.out.println("Triangle perimeter");
+        System.out.println("Triangle perimeter");
         float firstSide = 5;
-        System.out.println("The first side is "+firstSide);
         float secondSide = 6;
-        System.out.println("The second side is "+secondSide);
         float thirdSide = 8;
+        System.out.println("The first side is "+firstSide);
+        System.out.println("The second side is "+secondSide);
         System.out.println("The third side: "+thirdSide);
         float perimeter = firstSide+secondSide+thirdSide;
         System.out.println("The perimeter of the triangle is: "+perimeter);  
