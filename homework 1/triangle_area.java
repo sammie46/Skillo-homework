@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
  Scanner scanner = new Scanner(System.in);
-    
+    //Without input
         System.out.println("Triangle area");
         float firstSide = 5;
         float secondSide = 6;
@@ -15,7 +15,8 @@ public class Main {
         float halfPerimeter = perimeter/2;
         float area =(float)Math.sqrt(halfPerimeter * (halfPerimeter -firstSide ) * (halfPerimeter - secondSide) * (halfPerimeter - thirdSide));
         System.out.println("The area of the triangle is "+area);
-     
+
+      //With input
       /*  System.out.println("Triangle area");
         System.out.println("Enter the first side: ");
         float firstSide = scanner.nextFloat();
