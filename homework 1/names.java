@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Your first name is "+firstName);
         System.out.println("Your middle name is "+midName);
         System.out.println("Your surname: "+surname);
-        System.out.println("Your full name is "+firstName+ midName+ surname);
+        System.out.println("Your full name is "+firstName+" "+ midName+ " "+surname);
    
   //With input
       /*    System.out.println("Enter your first name: ");
@@ -19,7 +19,7 @@ public class Main {
         String midName = scanner.nextLine();
         System.out.println("Enter your surname: ");
         String surname = scanner.nextLine();
-        System.out.println("Your full name is: "+firstName+midName+surname);
+        System.out.println("Your full name is "+firstName+" "+ midName+ " "+surname);
 */
     }
 }
